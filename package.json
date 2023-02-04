@@ -1,0 +1,27 @@
+{
+  "name": "windowsuserverification",
+  "version": "1.0.0",
+  "description": "Тестовое задание:",
+  "main": "application.js",
+  "scripts": {
+    "start": "node application.js",
+    "dev": "nodemon application.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svaroggod/windowsUserVerification.git"
+  },
+  "keywords": [],
+  "author": "S.Ivashchenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17",
+    "express-handlebars": "^5.1.0",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "bugs": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
