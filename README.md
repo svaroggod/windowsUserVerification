@@ -1,12 +1,18 @@
 # windowsUserVerification
 
-0.1 Установить Node.js (если он не стоит), добавить node.exe в глобальные переменные среды Windows, указать ссылку на 
+0.0 Установить OC Windows
+0.1 Установить Node.js (если он не установлена), добавить node.exe в глобальные переменные среды Windows, указать ссылку на 
 него в стурктуре проекта.
+0.2 Освободить порт 8000
 
 Для запуска программы выполнить следующие действия:
+
 1. склонировать репозиторий  https://github.com/svaroggod/windowsUserVerification.git;
 2. подтянуть зависимости, введя в терминале команду npm install;
 3. запустить исполняемый файл server.bat из корневой папки проекта.
+
+
+
 
 Тестовое задание:
 
@@ -42,6 +48,10 @@
 
 9. Срок выполнения задания 7 дней начиная с завтрашнего дня.
 
+
+
+
+
 Использованные ресурсы:
 
 1. Изменение кодировки файла: https://www.jetbrains.com/help/phpstorm/encoding.html#file-encoding-settings
@@ -58,6 +68,5 @@
    https://nodejsdev.ru/guide/express-handlebars-layout/
 6. css https://www-javatpoint-com.translate.goog/materialize-css-navbar?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru
    https://materializecss-com.translate.goog/getting-started.html?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru
-7.
-bat https://ru.stackoverflow.com/questions/1211264/%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8-%D0%B2-bat-%D1%84%D0%B0%D0%B9%D0%BB-child-process-nodejs
+7. bat https://ru.stackoverflow.com/questions/1211264/%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8-%D0%B2-bat-%D1%84%D0%B0%D0%B9%D0%BB-child-process-nodejs
 8. os https://nodejsdev.ru/api/os/
