@@ -3,8 +3,8 @@ const express = require('express');
 const expressHbs = require('express-handlebars');
 const path = require('path');
 const indexRoutes = require('./routes/index');
-const trueAnsRoutes = require('./routes/trueAns');
-const falseAnsRouters = require('./routes/falseAns');
+const trueAnswerRoutes = require('./routes/trueAnswer');
+const falseAnswerRouters = require('./routes/falseAnswer');
 
 const app = express();
 
@@ -14,14 +14,15 @@ const hbs = expressHbs.create({
     extname: 'hbs'
 });
 
+
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', 'views');
 
 app.use(express.urlencoded({extended: false}));
 app.use('/', indexRoutes);
-app.use('/trueAns', trueAnsRoutes);
-app.use('/falseAns', falseAnsRouters);
+app.use('/trueAnswer', trueAnswerRoutes);
+app.use('/falseAnswer', falseAnswerRouters);
 
 
 const PORT = process.env.PORT || 8000;
