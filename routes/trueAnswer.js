@@ -2,10 +2,9 @@ const {Router} = require('express');
 const router = Router();
 
 router.get('/', (req, res) => {
-    res.render('trueAns', {
+    res.render('trueAnswer', {
         title: 'Пользователь найден',
     });
 });
-
 
 module.exports = router;    
